@@ -1,0 +1,14 @@
+{
+   "content_scripts": [ {
+      "js": [ "hideAdsAndSpaces.js" ],
+      "matches": [ "https://*.quora.com/*" ]
+   } ],
+   "description": "Hides ads and (mostly all) spaces from quora feed. Rip off of 'hide-quora-ads'.",
+   "icons": {
+      "128": "quoraBlue.png"
+   },
+   "manifest_version": 2,
+   "name": "Hide Quora Ads and Spaces",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.3"
+}
